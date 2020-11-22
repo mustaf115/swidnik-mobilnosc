@@ -6,7 +6,6 @@
       :sidebar-item-color="sidebarBackground"
       :sidebar-background-image="sidebarBackgroundImage"
     >
-      <mobile-menu slot="content"></mobile-menu>
 	  <sidebar-link to="/panel">
         <md-icon>dashboard</md-icon>
         <p>Panel administracyjny</p>
@@ -31,11 +30,7 @@
 
     <div class="main-panel">
 
-      <fixed-plugin
-        :color.sync="sidebarBackground"
-        :image.sync="sidebarBackgroundImage"
-      >
-      </fixed-plugin>
+  
 
       <dashboard-content> </dashboard-content>
 
@@ -55,8 +50,8 @@ export default {
     //TopNavbar,
     DashboardContent,
     //ContentFooter,
-    MobileMenu,
-    FixedPlugin
+    //MobileMenu,
+    //FixedPlugin
   },
   data() {
     return {
