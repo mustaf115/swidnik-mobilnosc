@@ -1,7 +1,4 @@
-Uruchomienie:
-instalacja node js z oficjalnej strony
-otwórz terminal
-przejdź do folderu z projektem
-Użyj komendy npm install lub yarn install jeżeli używasz Yarn
-Wpisz npm run dev lub yarn serve by uruchomić lokalny serwer
-Otworzy się nowe okno przeglądarki
+# Panel administracyjny
+Do uruchomienia aplikacji potrzebna jest najnowsza wersja Node.js i NPM:
+- w wierszu poleceń wpisujemy `npm install` w celu zainstalowania potrzebnych zależności
+- aplikację uruchamiamy poprzez polecenie `npm run dev` i czekamy na otwarcie okna przeglądarki
