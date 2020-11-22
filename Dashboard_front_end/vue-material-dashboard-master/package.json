@@ -34,6 +34,5 @@
     "sass": "1.26.2",
     "sass-loader": "8.0.2",
     "vue-template-compiler": "2.6.11"
-  },
-  "resolutions": { "eslint-loader": "2.1.2" }
+  }
 }
