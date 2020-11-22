@@ -1,6 +1,6 @@
-import styled from 'styled-components/native'
+import styled from 'styled-components/native';
 
-const LoginField = styled.TextInput`
+const FormField = styled.TextInput`
 margin: 10px 0;
 width: 250px;
 height: 32px;
@@ -9,4 +9,4 @@ border-style: solid;
 border-bottom-color: #ddd;
 `;
 
-export default LoginField;
+export default FormField;

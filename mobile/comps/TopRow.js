@@ -1,7 +1,7 @@
-import * as React from 'react'
+import * as React from 'react';
 import { Text, TouchableOpacity } from 'react-native';
-import styled from 'styled-components/native'
-import Logo from './Logo'
+import styled from 'styled-components/native';
+import Logo from './Logo';
 
 const Row = styled.SafeAreaView`
 padding: 0 20px;
@@ -10,15 +10,13 @@ display: flex;
 justify-content: space-between;
 align-items: center;
 flex-direction: row;
-`
+`;
 
-
-
-const TopRow = ({toggleDrawer}) => (
+const TopRow = ({ toggleDrawer }) => (
   <Row>
     <Logo />
     <TouchableOpacity onPress={toggleDrawer}><Text>Menu</Text></TouchableOpacity>
   </Row>
-)
+);
 
 export default TopRow;
